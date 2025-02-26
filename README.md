@@ -28,7 +28,7 @@ or dowload model from huggingface : https://huggingface.co/moonshotai/Moonlight-
 
 # step 3: convert model
 
-modify src_path and dis_path in convert.py
+modify src_path and dst_path in Line 5 and Line 6 on convert.py
 
 ```
 python convert.py

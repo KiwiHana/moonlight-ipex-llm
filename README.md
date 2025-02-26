@@ -1,7 +1,12 @@
 # moonlight by ipex-llm
 Run moonlight-16B-A3B-instruct on intel core ultra or A770/B580 by intel ipex-llm-transformers python
 
+intel core ultra recommand 32GB memory.
+
 # step 1: create env
+
+Install miniforge on windows: https://conda-forge.org/miniforge/
+
 ```
 conda create -n ipex-llm python=3.11 libuv
 conda activate ipex-llm

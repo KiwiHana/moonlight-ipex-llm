@@ -31,7 +31,7 @@ class PerformanceTextStreamer(TextStreamer):
             print(f"Next token generation speed: {next_token_speed:.2f} token/s")
 
     
-model_path = r"C:\Users\Lengda\Documents\Moonlight-16B-A3B-Instruct-converted"
+model_path = r"C:\Users\Le\Documents\Moonlight-16B-A3B-Instruct-converted"
  
 tokenizer = AutoTokenizer.from_pretrained(model_path, trust_remote_code=True)
  

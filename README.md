@@ -51,3 +51,6 @@ python run_moonlight-16B-A3B-instruct.py
 ```
 ![image](https://github.com/user-attachments/assets/ed54cd46-8b00-4d90-85df-d3362c0d9dcf)
 
+因式分解：x^3-19x+30
+
+以AIPC为主题，创作一首现代诗，赞美时代的美好，人人都能在笔记本电脑上体验人工智能带来的新功能。

@@ -1,4 +1,4 @@
-# moonlight by ipex-llm
+# Moonlight by ipex-llm
 Run moonlight-16B-A3B-instruct on intel core ultra or A770/B580 by intel ipex-llm-transformers python
 
 intel core ultra recommand 32GB memory.

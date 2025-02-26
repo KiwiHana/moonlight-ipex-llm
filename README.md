@@ -28,7 +28,7 @@ or dowload model from huggingface : https://huggingface.co/moonshotai/Moonlight-
 
 # step 3: convert model
 
-run convert.py
+modify src_path and dis_path in convert.py
 
 ```
 python convert.py
@@ -41,6 +41,9 @@ and then copy the following files from /path/to/Moonlight-16B-A3B-Instruct to /p
 
 
 # step 4: run Moonlight-16B-A3B-Instruct model
+
+modify model_path in Line 34 on run_moonlight-16B-A3B-instruct.py
+
 ```
 set SYCL_CACHE_PERSISTENT=1 
 set SYCL_PI_LEVEL_ZERO_USE_IMMEDIATE_COMMANDLISTS=1 

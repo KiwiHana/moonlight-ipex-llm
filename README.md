@@ -44,7 +44,7 @@ and then copy the following files from /path/to/Moonlight-16B-A3B-Instruct to /p
 
 modify model_path in Line 34 on run_moonlight-16B-A3B-instruct.py
 
-Note: if you device is ARL-H, it will take ~10min to warmup only at first time.
+Note: if you device is ARL-H, it will take ~10min to warmup only at the first time.
 
 ```
 set SYCL_CACHE_PERSISTENT=1 

@@ -2,8 +2,8 @@ import os
 import shutil
 from safetensors.torch import load_file, save_file
  
-src_dir = r"C:\Users\Lengda\Documents\Moonlight-16B-A3B-Instruct"
-dst_dir = r"C:\Users\Lengda\Documents\Moonlight-16B-A3B-Instruct-converted"
+src_dir = r"C:\Users\Le\Documents\Moonlight-16B-A3B-Instruct"
+dst_dir = r"C:\Users\Le\Documents\Moonlight-16B-A3B-Instruct-converted"
  
 os.makedirs(dst_dir, exist_ok=True)
  

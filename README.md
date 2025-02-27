@@ -47,6 +47,7 @@ modify model_path in Line 34 on run_moonlight-16B-A3B-instruct.py
 Note: if you device is ARL-H, it will take ~10min to warmup only at the first time.
 
 ```
+conda activate ipex-llm
 set SYCL_CACHE_PERSISTENT=1 
 set SYCL_PI_LEVEL_ZERO_USE_IMMEDIATE_COMMANDLISTS=1 
 python run_moonlight-16B-A3B-instruct.py

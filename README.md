@@ -57,3 +57,15 @@ python run_moonlight-16B-A3B-instruct.py
 因式分解：x^3-19x+30
 
 以AIPC为主题，创作一首现代诗，赞美时代的美好，人人都能在笔记本电脑上体验人工智能带来的新功能。
+
+Note:
+
+如果遇到报错，例如或者其它：RuntimeError：The expanded size of the tensor (28) must match the existing size (27) at non-singleton dimesion 3. Target sizes: [1,16,1,28]. Tensor sizes: [1,1,1,27]
+
+那是因为moonlight模型文件修改过，打开模型文件夹里面的modeling_deepseek.py, 把1656行的 
+
+max_cache_length = past_key_values.get_seq_length() 
+
+修改成
+
+max_cache_length = past_key_values.get_max_length() 
